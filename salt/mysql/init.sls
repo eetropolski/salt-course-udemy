@@ -8,7 +8,7 @@ python-mysqldb:
 
 mysql-service-enabled:
   service.running:
-    - name: mysql.service
+    - name: mariadb
     - enable: true
 
 root-password-set:
