@@ -436,6 +436,7 @@ interface 172.17.7.226
 file_roots:
   base:
     - /srv/salt/
+    - /srv/formulas/
 #   dev:
 #     - /srv/salt/dev/services
 #     - /srv/salt/dev/states

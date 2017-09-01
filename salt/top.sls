@@ -7,3 +7,4 @@ base:
     - php7
     - mysql
     - redis-server
+    - mongodb
