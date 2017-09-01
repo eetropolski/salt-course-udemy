@@ -471,7 +471,7 @@ file_roots:
 # WARNING: While md5 is supported, do not use it due to the high chance
 # of possible collisions and thus security breach.
 #
-# Prior to changing this value, the master should be stopped and all Salt 
+# Prior to changing this value, the master should be stopped and all Salt
 # caches should be cleared.
 #hash_type: md5
 
@@ -576,9 +576,9 @@ file_roots:
 # Pillar is laid out in the same fashion as the file server, with environments,
 # a top file and sls files. However, pillar data does not need to be in the
 # highstate format, and is generally just key/value pairs.
-#pillar_roots:
-#  base:
-#    - /srv/pillar
+pillar_roots:
+  base:
+    - /srv/pillar
 #
 #ext_pillar:
 #  - hiera: /etc/hiera.yaml
