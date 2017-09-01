@@ -8,7 +8,7 @@ python-mysqldb:
 
 mysql-service-enabled:
   service.running:
-    - name: mysql.server
+    - name: mysql.service
     - enable: true
 
 root-password-set:
